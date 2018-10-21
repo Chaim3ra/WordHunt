@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1099242313062",
+    "firebase_url": "https://word-hunt-ade02.firebaseio.com",
+    "project_id": "word-hunt-ade02",
+    "storage_bucket": "word-hunt-ade02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099242313062:android:20e4e83cbc2888db",
+        "android_client_info": {
+          "package_name": "christuniversity.wordhunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099242313062-hkr6cc3p13t910q0okje608rgp426alk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "christuniversity.wordhunt",
+            "certificate_hash": "d63dc7908f19d1e5832bc29a35405791da83dce7"
+          }
+        },
+        {
+          "client_id": "1099242313062-om7kj4k7juvd5ne8lnevffsvk32o9ngr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcnHNe7Bfahtxdw0VbthGB7E5GMzSArUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099242313062-om7kj4k7juvd5ne8lnevffsvk32o9ngr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
