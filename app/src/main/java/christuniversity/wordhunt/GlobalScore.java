@@ -1,5 +1,5 @@
 //Created by Chaitanya on 22/08/2018.
-//Usage without appropriate citations ins prohibited.
+//Usage without appropriate citations is prohibited.
 package christuniversity.wordhunt;
 
 public class GlobalScore{
