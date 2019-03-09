@@ -70,64 +70,45 @@ public class GameFragment extends Fragment {
         words[18]=(TextView)view.findViewById(R.id.w19);
         words[19]=(TextView)view.findViewById(R.id.w20);
         final TextView timer=(TextView)view.findViewById(R.id.timer);
-        String set0[] = {"Stemplot","Stratification","Boxmodel","Centrifugation",
-                        "Chelation", "Antecedent", "Cuvette", "Pyrolisis",
-                        "Retort","Kernel", "Bifurcation Theory","Stratum",
-                        "Resistant","Ergodic Theory","Apoapsis","Cluster Sample",
-                        "Eccentricity","Zenith", "Roche Limit","Outlier"};
+        String set0[] = {"Osaka", "Shanghai", "Shenzhen", "Tel Aviv", "Dubai"
+        , "Taipei", "Busan", "Hanoi", "Pattaya", "Antalya", "Manila", "Ho Chi Minh", "Beijing", "Mumbai", 
+        "Sharjah", "Amman", "Phuket", "Kolkata", "Bandung", "Koyoto"};
 
-        String set1[]={"Confounder","Iwasawa Theory","Sample","Statics","Stem and Leaf Display",
-                "Bootstrap","Mach Number","Acoustics","Babinet’s Principle",
-                "Undercoverage","Bragg’s Law","Interpolation","Geometric Albedo",
-                "Periapsis","Inference","Ampacity","Heteroscedasticity","Buck",
-                "Compander","Ideality Factor"};
+        String set1[]={"Boston", "New York", "Vancouver", "Chicago", "Toronto", "Los Angeles", "Lima", 
+        "Rio de Janerio", "Quito", "Salvador", "Havana", "Caracas", "Sao Paulo", "Puebla", "Kingston","Cartagena", "San Lorenzo", "Valparaiso", "Cuenca", 
+        "Mendoza"};
 
-        String set2[]={"Impedance","Random","Preemphasis","Normal","Beta distribution",
-                "Quadrature","Tweak","Skewness","Strobe"," Snubber ","Ramsey Theory ",
-                "Range","Coanda Effect ","Gamma distribution","Richardson Number",
-                "Transonic Number","Inferential","Strouhal Number","Expectation"," Attenuate"};
+        String set2[]={"Lisbon", "Valencia", "Athens", "Edinburgh", "Porto", "Florence", "Hamburg", 
+        "Vienna", "Cork", "Seville", "Avignon", "Copenhagen", "Lyon", "Venice", "Antwerp", "Salzburg", "Lucerne", 
+        "Tallinn",  "Basel", "Nuremberg"};
 
-        String set3[]={"Hypothesis","Cation","F distribution","Population","Impetus",
-                "Moments","Lepton","Meson","Undercoverage","Muon","T distribution","Element","Gay Lussac's Law",
-                "Krypton","Legend","Period","Unit","Zymogen","Range","Inferential"};
+        String set3[]={"Wellington", "Sydney", "Brisbane", "Auckland", "Melbourne", "Canberra", "Christchurch", 
+        "Port Moresby", "Darwin", "Suva", "Honiara", "Perth", "Adelaide", "Noumea", "Hamilton", "Wollongong", 
+        "Dili", "Newcastle", "Lospalos", "Central Coast"};
 
-        String set4[]={"Asterism","Boxmodel","Black Hole","Confounder","Barlow lens","Asteriod",
-                "Collimation","Bootstrap","Conjunction","Dobsonian","Ephermeris","Gibbous",
-                "Stem and Leaf Display","Inclination","Outlier","Libration","Outlier",
-                "Gamma distribution","Magnitude","Antecedent"};
+        String set4[]={"Lagos", "Nairobi", "Algiers", "Tripoli", "Durban", "Cairo", "Windhoek", "Lamu", "Bahir Dar", 
+        "Malabo", "Kigali", "Agadir", "Addis Ababa", "Port Louis", "Tunis", "Abidjan", "Marrakesh", "Luxor", "Tangier", 
+        "Douala"};
 
        // String set6[]={"Meridian","Messier","Nebula","Meteor","Parallax","Cluster","Retrograde","Solstice","Faraday","Coloumb","Waxing",
                       //          "Globular Cluster"};
 
-        final String correctwords[]={"Outlier",
-                "Outlier",
-                "Boxmodel",
-                "Antecedent",
-                "Cluster Sample",
-                "Stemplot",
-                "Kernel",
-                "Resistant",
-                "Stem and Leaf Display",
-                "Interpolation",
-                "Heteroscedasticity",
-                "Confounder",
-                "Inference",
-                "Undercoverage",
-                "Bootstrap",
-                "Sample",
-                "Random",
-                "Normal",
-                "Beta distribution",
-                "Skewness",
-                "Range",
-                "Gamma distribution",
-                "Inferential",
-                "Expectation",
-                "Hypothesis",
-                "F distribution",
-                "Population",
-                "Moments",
-                "T distribution"};
+        final String correctwords[]={
+            "Tel Aviv", "Taipei",
+            "Hanoi", "Manila",
+            "Beijing", "Amman",
+            "Toronto","Lima",
+            "Quito", "Havana",
+            "Caracas", "Kingston",
+            "Lisbon", "Athens",
+            "Edinburgh", "Vienna",
+            "Copenhagen","Tallinn",
+            "Wellington", "Melbourne",
+            "Port Moresby", "Suva",
+            "Honiara", "Dili",
+            "Nairobi", "Tripoli",
+            "Cairo", "Malabo",
+            "Kigali", "Addis Ababa"};
 
         final String finallwords[]=new String[20];
         final String finacorrectwords[]=new String[8];
